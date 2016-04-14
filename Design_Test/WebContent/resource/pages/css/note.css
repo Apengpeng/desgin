@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+#readingtable_one {
+	position:relative;
+	width:30%;
+	float:left;
+}
+#readingtable_two {
+	position:relative;
+	width:34%;
+	float:inherit;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+#readingtable_three {
+	position:relative;
+	width:30%;
+	float:right;
+}
+
+#buttongroup{
+	text-align: center;
+}

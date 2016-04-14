@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+#interface_text{
+	
+}
+
+#content_border{
+	margin:10px;
+	border-width:3px;
+	border-color: black;
+}

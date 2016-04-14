@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+#daymood_table_show{
+	padding-left:5%;
+	float: left;
+}
+
+.table_tr{
+	width: 30px;
+}
