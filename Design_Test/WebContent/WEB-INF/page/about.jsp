@@ -67,8 +67,7 @@
 					<ul class="nav nav-tabs nav-stacked" id="myNav">
 						<li><a href="#section-1">网站介绍</a></li>
 						<li><a href="#section-2">模型介绍</a></li>
-						<li><a href="#section-3">站长介绍</a></li>
-						<li><a href="#section-4">网站源码</a></li>
+						<li><a href="#section-3">网站源码</a></li>
 					</ul>
 				</div>
 				<div class="col-xs-5" id="about_content">
@@ -91,29 +90,13 @@
 <p style="text-indent: 2em;">我们采用t日的上证指数“收益率”为输出变量,利用神经网络的方式进行模型构建：</p>
 
 
+					
 					<hr>
-					<h2 id="section-3">站长介绍</h2>
-					<hr>
-					<p>Nullam hendrerit justo non leo aliquet imperdiet. Etiam in
-						sagittis lectus. Suspendisse ultrices placerat accumsan. Mauris
-						quis dapibus orci. In dapibus velit blandit pharetra tincidunt.
-						Quisque non sapien nec lacus condimentum facilisis ut iaculis
-						enim. Sed viverra interdum bibendum. Donec ac sollicitudin dolor.
-						Sed fringilla vitae lacus at rutrum. Phasellus congue vestibulum
-						ligula sed consequat.</p>
-					<p>Nullam hendrerit justo non leo aliquet imperdiet. Etiam in
-						sagittis lectus. Suspendisse ultrices placerat accumsan. Mauris
-						quis dapibus orci. In dapibus velit blandit pharetra tincidunt.
-						Quisque non sapien nec lacus condimentum facilisis ut iaculis
-						enim. Sed viverra interdum bibendum. Donec ac sollicitudin dolor.
-						Sed fringilla vitae lacus at rutrum. Phasellus congue vestibulum
-						ligula sed consequat.</p>
-					<hr>
-					<h2 id="section-4">网站源码</h2>
+					<h2 id="section-3">网站源码</h2>
 					<hr>
 					<p style="text-indent: 2em;">投资者情绪指数构建的数据抓取和处理代码以及网站的代码，已经全部发布在了GitHub.欢迎大家扔砖。</p>
 					<div>
-						<button type="button" class="btn btn-primary">Github</button>
+						<a href="https://github.com/Apengpeng/desgin"><button type="button" class="btn btn-primary">Github</button></a>
 					</div>
 					<hr>
 				</div>
