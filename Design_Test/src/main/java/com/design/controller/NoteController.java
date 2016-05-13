@@ -47,6 +47,7 @@ public class NoteController {
 				.getDayBefore(null));
 
 		model.addObject("reading", reading);
+		System.out.println(reading.get(0).toString());
 		model.addObject("comments", comments);
 		model.addObject("create", create);
 

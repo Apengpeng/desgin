@@ -11,8 +11,8 @@ public class TimeUtil {
 	public static java.sql.Date getDayBefore(String specifiedDay) {
 		//可以用new Date().toLocalString()传递参数 
 		if(specifiedDay==null){
-			//specifiedDay = new java.sql.Date(System.currentTimeMillis()).toLocaleString();
-			specifiedDay = "2016-02-25";
+			specifiedDay = new java.sql.Date(System.currentTimeMillis()).toLocaleString();
+			//specifiedDay = "2016-02-25";
 		}
         Calendar c = Calendar.getInstance();  
         java.util.Date date = null;  
@@ -32,8 +32,8 @@ public class TimeUtil {
 	public static java.sql.Date getDayBefore100Day(String specifiedDay) {
 		//可以用new Date().toLocalString()传递参数 
 		if(specifiedDay==null){
-			//specifiedDay = new java.sql.Date(System.currentTimeMillis()).toLocaleString();
-			specifiedDay = "2016-02-25";
+			specifiedDay = new java.sql.Date(System.currentTimeMillis()).toLocaleString();
+			//specifiedDay = "2016-02-25";
 		}
         Calendar c = Calendar.getInstance();
         java.util.Date date = null;  

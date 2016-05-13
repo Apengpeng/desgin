@@ -22,6 +22,9 @@ public class TitleDaoImpl implements ITitleDao {
 	@Resource(name = "jdbcTemplate")
 	private JdbcTemplate jdbcTemplate;
 
+	/**
+	 * 获取阅读量排名前五的帖子
+	 */
 	@Override
 	public List<Title> SearchTop5ByReading(Date date) {
 		String sql = "SELECT Id,Title,PublishDate,Reading FROM mood_base.note where PublishDate='"

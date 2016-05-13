@@ -92,10 +92,10 @@
 						</tr>
 					</thead>
 					<tbody>
-						<c:forEach items="${reading}" var="note">
+						<c:forEach items="${reading}" var="rnote">
 							<tr>
-								<td>${note.title}</td>
-								<td>${note.reading}</td>
+								<td>${rnote.title}</td>
+								<td>${rnote.reading}</td>
 							</tr>
 						</c:forEach>
 					</tbody>
@@ -111,10 +111,10 @@
 						</tr>
 					</thead>
 					<tbody>
-						<c:forEach items="${comments}" var="note">
+						<c:forEach items="${comments}" var="cnote">
 							<tr>
-								<td>${note.title}</td>
-								<td>${note.comments}</td>
+								<td>${cnote.title}</td>
+								<td>${cnote.comments}</td>
 							</tr>
 						</c:forEach>
 					</tbody>

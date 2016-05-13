@@ -4,7 +4,7 @@ $(function() {
 	
 	var amood = new Array(mood.length)
 	for(var i=0;i<mood.length;i++){
-		amood[i] = parseInt(mood[i]);
+		amood[i] = parseFloat(mood[i]);
 	}
 	
 	$('#moodcontainer')
